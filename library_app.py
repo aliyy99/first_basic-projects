@@ -1,9 +1,3 @@
-#Kitap ekleme(kitap adı,yazar adı,yıl bilgisi)
-#kitapları listeleme
-#kitap arama
-#kitap durumu= ödünçte, mevcut
-#bilgileri dosyada tutma(json)
-#kitap alma,kitap verme
 import json
 import os
 
@@ -139,4 +133,5 @@ while True:
             print("\n✗ Invalid option! Please choose between 1-6.\n")
     
     except ValueError:
+
         print("\n✗ Please enter a valid number!\n")
